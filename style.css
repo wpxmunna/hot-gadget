@@ -54,3 +54,12 @@
     font-weight: bold;
     margin-left: 85px;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin: 2%;
+}
+footer{
+    text-align: center;
+}
