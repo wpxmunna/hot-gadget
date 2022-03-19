@@ -5,7 +5,7 @@
     padding: 20px 40px;
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #4b4747c5 0%, #000000 100%);
+    background-color: black;
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -16,14 +16,20 @@
 .col-md-7{
     background-image: url(images/bg-2.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
 }
 .col-md-5{
     background-image: url(images/bg-1.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
 }
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    align-content: center;
 }
 .smartphone{
     margin-top: 100px;
@@ -31,4 +37,20 @@
 }
 .smartphone h3{
     padding-bottom: 50px;
+}
+.laptop{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.laptop h3{
+    padding-bottom: 50px;
+}
+.card button{
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-left: 85px;
 }
